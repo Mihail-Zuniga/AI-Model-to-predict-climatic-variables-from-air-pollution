@@ -214,3 +214,30 @@ Note. Own authorship.
 - The use of programming environments such as Python and Orange 3 streamlines the implementation of mathematical equations, statistical methods and artificial intelligence models, contributing to the development of scientific research and its practical implementation.
 ### Considerations
 Linear regression is one of the most basic algorithms used in artificial intelligence for regression problems. This work can be extended using other more complex algorithms such as neural networks. Overall, it can be noted that during the investigation the validity of the results was verified with other scientifically validated studies. It should be taken into account that possible differences in the results may be due to the area and time of year in which the study was carried out, since this influences the level of contamination and the components that can form PM 2.5.
+## Bibliography and References
+### References
+- Bedi, J., Gnanasekaran, K., Balasubramanian, S., Mahadevan, S., & Shenoy, N. (2016). Complete Study of Factors Contributing to Air Pollution. Great Lakes Institute. https://bit.ly/3HDaMWp
+- Ellis, C.A., and Parbery, S.A. (2005). Is it smarter better? A comparison of adaptive, and simple moving average trading strategies. Research in International Business and Finance, 19(3), 399-411. https://bit.ly/34Jo3hU
+- Emenike, H., Dar, F., Liyanage, M., Sharma, R., Zuniga, A., Hoque, M. A., … and Flores, H. (2021). Characterizing Everyday Objects using Human Touch: Thermal Dissipation as a Sensing Modality. 2021 IEEE International Conference on Pervasive Computing and Communications (PerCom), 1-8. https://bit.ly/3tpsjx2
+- Fatahi, Y., Kouznetsov, R., & Sofiev, M. (2021). The effect of accounting for public holidays on the skills of the atmospheric composition model SILAM. Geoscientific Model Development, 14(12), 7459-7475. https://bit.ly/337jwVQ
+- Galton, F. (1869). Hereditary Genius. Macmillan and Company (pp. 130-136). https://bit.ly/3FrubrD
+- Haiming, Z., & Xiaoxiao, S. (2013, June). Study on prediction of atmospheric PM2. 5 based on RBF neural network. 2013 Fourth International Conference on Digital Manufacturing & Automation, 1287-1289. https://bit.ly/3LnuPuk
+- Jiang, Y., Chen, J., Wu, C., Lin, X., Zhou, Q., Ji, S., ... and Liu, B. (2020). Temporal cross-correlations between air pollutants and outpatient visits for respiratory and circulatory system diseases in Fuzhou, China. BMC public health, 20(1), 1-13.
+https://bit.ly/33bZr0O
+- Liang, X., Li, S., Zhang, S., Huang, H., & Chen, S. X. (2016). PM2. 5 data reliability, consistency, and air quality assessment in five Chinese cities. Journal of Geophysical Research: Atmospheres, 121(17), 10-220. https://bit.ly/3LfvcY1
+- Alone, J., and Sevilla, J. (1997). Importance of input data normalization for the application of neural networks to complex industrial problems. IEEE Transactions on nuclear science, 44(3), 1464-1468. https://bit.ly/3fmUp3S
+- Singh, M.S., Warren, R.A., & Jakob, C. (2019). A steady‐state model for the relationship between humidity, instability, and precipitation in the tropics. Journal of Advances in Modeling Earth Systems, 11(12), 3973-3994.
+https://bit.ly/3rzZVHp
+- Vassoler, R.T., & Zebende, G.F. (2012). DCCA Cross-correlation Coefficient apply in time series of air temperature and air relative humidity. Physica A: Statistical Mechanics and its Applications, 391(7), 2438-2443. https://bit.ly/3qkEcm5
+- Xing, H., Wang, G., Liu, C., & Suo, M. (2021). PM2. 5 concentration modeling and prediction by using temperature-based deep belief networks. Neural Networks, 133, 157-165. https://bit.ly/3oByn2h
+- Zuniga, A., Flores, H., Lagerspetz, E., Nurmi, P., Tarkoma, S., Hui, P., & Manner, J. (2019, May). Tortoise or hare? Quantifying the effects of performance on mobile app retention. The World Wide Web Conference. 2517-2528. https://bit.ly/3J5V0nw
+Zuniga, A., Nurmi, P., and Flores, H. (2021). Ripe or Rotten? Low-Cost Produces Quality Estimation Using Reflective Green Light Sensing. IEEE Pervasive Computing. https://bit.ly/3uzS6Dx
+### Bibliography
+- Aromolo, R., Savi, F., Salvati, L., Ilardi, F., Moretti, V., & Fares, S. (2015). Particulate matter and meteorological conditions in Castelporziano forest: a brief commentary. Rendiconti Lincei, 26(3), 269-273. https://bit.ly/3uK4twC
+- Chen, Z., Xie, X., Cai, J., Chen, D., Gao, B., He, B., ... and Xu, B. (2018). Understanding meteorological influences on PM 2.5 concentrations across China: a temporal and spatial perspective. Atmospheric Chemistry and Physics, 18(8), 5343-5358.
+https://bit.ly/3HHxT2q
+- Diaz, V., Bahamonde, M. (2020). ANNUAL REPORT ON AIR QUALITY YEAR 2018. Ministry of Environment. Municipality of the Metropolitan District of Quito. https://bit.ly/3GxCDpH
+- Liang, X., Zou, T., Guo, B., Li, S., Zhang, H., Zhang, S., ... & Chen, S. X. (2015). Assessing Beijing's PM2. 5 pollution: severity, weather impact, APEC and winter heating. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, 471(2182). https://bit.ly/3Lox8NG
+- Liu, Y., Zhao, N., Vanos, J.K., & Cao, G. (2017). Effects of synoptic weather on ground-level PM2. 5 concentrations in the United States. Atmospheric Environment, 148, 297-305. https://bit.ly/3oCNA3f
+- Requia, W. J., Jhun, I., Coull, B. A., & Koutrakis, P. (2019). Climate impact on ambient PM2. 5 Elemental concentration in the United States: A trend analysis over the last 30 years. Environment international, 131. https://bit.ly/3Gxslac
+- Tai, A.P., Mickley, L.J., & Jacob, D.J. (2010). Correlations between fine particulate matter (PM2. 5) and meteorological variables in the United States: Implications for the sensitivity of PM2. 5 to climate change. Atmospheric environment, 44(32), 3976-3984. https://bit.ly/3uAphGS
