@@ -169,8 +169,8 @@ Normalized graph of comparison between PM 2.5 and temperature (upper part), and 
 
 Note. Own authorship.
 
-</br>
-### predictive model
+### Predictive model
+
 The objective of this study is to determine the degree of precision with which the level of PM 2.5 can be predicted using climatic variables (in this case temperature and atmospheric pressure) and artificial intelligence algorithms. For this case, the most basic machine learning algorithm for regression problems called linear regression has been used and its resolution through the Least Squares method, which is considered to have been created in ancient Greece and having Galileo Galilei as the first modern precursor, although finally exposed by Legendre in 1805. The linear regression model is based on two steps:
 </br>
 Apply the formula for the development of the method of least squares.
@@ -207,6 +207,17 @@ The RMSE obtained a value of 6.62 g/m3 coefficient of determination R2 has a val
 
 Note. Own authorship.
 </br>
+
+Here is how to configure the AI model in Orange3, Here I used a Linear Regression Model to seem new in this bussines, but you can also apply a neural network which has a better performance.
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%201.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%202.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%203.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%204.png)
+
 ## Conclusions
 - By using basic artificial intelligence models, a prediction of the PM 2.5 level can be obtained with a squared error of 0.48 and 0.24 units using temperature and atmospheric pressure as independent variables respectively. This error represents an approximate difference of 5.48 µg/m2 in each temperature prediction and 6.62 µg/m2 in the prediction based on atmospheric pressure.
 - There is a correlation of 0.70 and 0.51 units between the independent variables: atmospheric pressure and temperature with the objective variable, PM 2.5. This correlation is useful to determine the degree of influence of these variables on the level of air pollution with causal analysis.
