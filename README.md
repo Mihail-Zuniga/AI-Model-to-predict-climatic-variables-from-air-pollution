@@ -208,15 +208,6 @@ The RMSE obtained a value of 6.62 g/m3 coefficient of determination R2 has a val
 Note. Own authorship.
 </br>
 
-Here is how to configure the AI model in Orange3, Here I used a Linear Regression Model to seem new in this bussines, but you can also apply a neural network which has a better performance.
-
-![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%201.png)
-
-![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%202.png)
-
-![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%203.png)
-
-![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%204.png)
 
 ## Conclusions
 - By using basic artificial intelligence models, a prediction of the PM 2.5 level can be obtained with a squared error of 0.48 and 0.24 units using temperature and atmospheric pressure as independent variables respectively. This error represents an approximate difference of 5.48 µg/m2 in each temperature prediction and 6.62 µg/m2 in the prediction based on atmospheric pressure.
@@ -252,3 +243,13 @@ https://bit.ly/3HHxT2q
 - Liu, Y., Zhao, N., Vanos, J.K., & Cao, G. (2017). Effects of synoptic weather on ground-level PM2. 5 concentrations in the United States. Atmospheric Environment, 148, 297-305. https://bit.ly/3oCNA3f
 - Requia, W. J., Jhun, I., Coull, B. A., & Koutrakis, P. (2019). Climate impact on ambient PM2. 5 Elemental concentration in the United States: A trend analysis over the last 30 years. Environment international, 131. https://bit.ly/3Gxslac
 - Tai, A.P., Mickley, L.J., & Jacob, D.J. (2010). Correlations between fine particulate matter (PM2. 5) and meteorological variables in the United States: Implications for the sensitivity of PM2. 5 to climate change. Atmospheric environment, 44(32), 3976-3984. https://bit.ly/3uAphGS
+
+## Here is how to configure the AI model in Orange3, Here I used a Linear Regression Model to seem new in this bussines, but you can also apply a neural network which has a better performance.
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%201.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%202.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%203.png)
+
+![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/orange3%20configuration%204.png)
