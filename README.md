@@ -47,6 +47,7 @@ The present study is based on the application of data pipelines widely used in s
   Data pipeline used in the study.
   
 ![CHEESE](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Data%20Pipeline.png)
+
 Note. Own authorship.
 
 ### Selection and definition of variables
@@ -65,6 +66,7 @@ Once the analysis period was established, the data distribution was evaluated to
 PM 2.5 measurements (µg/m2) recorded chronologically.
 
 ![CHEESE](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Chronological%20PM%20measurement.png)
+
 Note. Own authorship.
 
 </br>
@@ -75,6 +77,7 @@ In the case of the humidity variable, a Gaussian distribution can be seen with a
 ##### Figure 3
 Box plots of the study variables.
 ![CHEESE](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Boxplots%20of%20the%20variables.png)
+
 Note. Own authorship.
 
 </br>
@@ -85,6 +88,7 @@ In addition to the study of data dispersion, the analysis of the box plots allow
 Box plots of the study variables after cleaning out outliers.
 
 ![CHEESE](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Boxplots%20after%20data%20cleanning%20of%20atypical%20values.png)
+
 Note. Own authorship.
 
 </br>
@@ -104,10 +108,10 @@ Next, the level of relationship between the independent variables and the object
 
 The correlation coefficient can take values from -1 to 1, where rs = -1 indicates a strong negative correlation between the variables, rs = 1 a strong positive correlation between the variables and rs = 0 a null correlation (Galton, 1869). The correlation between variables is clearly presented using the correlation matrix that shows all the correlation coefficients between the variables and uses colors to highlight the level of correlation.
 
-Figure 6 shows the correlation matrix between variables. The relationship between variables can be denoted, mainly between PM 2.5 and temperature with a high negative correlation (correlation index of -0.706) and between PM 2.5 concentrations and atmospheric pressure with a medium positive correlation (correlation index of 0.504). This indicates that when the temperature decreases the concentration of PM 2.5 rises, and that when atmospheric pressure rises the concentration of PM 2.5 increases. No relationship is shown between PM 2.5 and relative humidity (correlation index of -0.07). Based on this result, the variables with correlation coefficients less than -0.5 (Temperature) and greater than 0.5 (Atmospheric Pressure) have been selected, since this means that they are more suitable to be used in the PM 2.5 prediction model. </br>
+Figure 6 shows the correlation matrix between variables. The relationship between variables can be denoted, mainly between PM 2.5 and temperature with a high negative correlation (correlation index of -0.706) and between PM 2.5 concentrations and atmospheric pressure with a medium positive correlation (correlation index of 0.504). This indicates that when the temperature decreases the concentration of PM 2.5 rises, and that when atmospheric pressure rises the concentration of PM 2.5 increases. No relationship is shown between PM 2.5 and relative humidity (correlation index of -0.07). Based on this result, the variables with correlation coefficients less than -0.5 (Temperature) and greater than 0.5 (Atmospheric Pressure) have been selected, since this means that they are more suitable to be used in the PM 2.5 prediction model.
 
-</br>
 ##### Figure 6
+
 Correlation matrix between variables.
 
 ![cheese](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Correlation%20Matrix.png)
@@ -117,7 +121,6 @@ Note. Own authorship.
 </br>
 To validate the correlation results, the coefficients obtained in this study are compared with others previously scientifically validated. Figure 7 shows the correlation matrix from a study of factors contributing to air pollution in India (Bedi et. al, 2016). It can be seen in the figure that the correlation levels are similar to those obtained in the present study for the objective variable (PM 2.5) and the independent variables (atmospheric pressure, humidity), confirming the validity of the results of this study.
 
-</br>
 ##### Figure 7
 Correlation matrix between variables in New Delhi according to the PunjabiBagh (left) and RKPuram (right) census.
 
@@ -134,6 +137,7 @@ As theoretical support for the correlation between PM 2.5 concentration levels a
 </br>
 ![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/correlation%20matrix%20of%20another%20previous%20study.png)
 </br>
+
 Nota. Recuperado de: “Temporal cross-correlations between air pollutants and outpatient visits for respiratory and circulatory system diseases in Fuzhou, China” por Y. Jiang, et al. 2020. https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-08915-y
 </br>
 
@@ -143,6 +147,7 @@ To mitigate possible errors related to false correlations, a causality analysis 
 </br>
 
 The correct way to interpret causality in this case is by analyzing the behavior of energy consumption during the different seasons of the year, the months with the lowest temperatures being those that require the massive use of heaters, increasing the level of pollution due to higher energy consumption. . In the case of the correlation between PM 2.5 and atmospheric pressure, the causality can be determined by the freedom in the degree of movement of the particles. A higher atmospheric pressure helps to obtain a higher concentration of PM 2.5, since it can cause a greater cohesion of the particles (Haiming and Xiaoxiao, 2013). </br>
+
 ### Behavior between variables
 The final part of verifying correlations between variables is performed by comparing the behavior of the correlated variables over time. The upper part of Figure 9 shows the comparison between PM 2.5 and temperature, confirming the negative correlation between both variables. The lower part of Figure 10 presents the comparison between PM 2.5 and atmospheric pressure, which is difficult to perform due to the ranges. To solve this problem, the variable normalization method is applied, which consists of taking the value of the variables to the same scale so that they can be easily compared, something commonly used in data analysis and necessary for the realization of certain models of prediction (Sola and Sevilla, 1997). </br>
 </br>
@@ -151,6 +156,7 @@ The final part of verifying correlations between variables is performed by compa
 Comparison graph between PM 2.5 and temperature (upper part), and PM 2.5 and Atmospheric Pressure (lower part).
 
 ![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/comparation%20graph%20between%20variables%20before%20normalization.png)
+
 Note. Own authorship.
 
 </br>
@@ -160,6 +166,7 @@ Figure 10 shows the normalized variables. As expected, the correlations between 
 ##### Figure 10
 Normalized graph of comparison between PM 2.5 and temperature (upper part), and PM 2.5 and Atmospheric Pressure (lower part).
 ![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/comparation%20graph%20between%20variables%20after%20normalization.png)
+
 Note. Own authorship.
 
 </br>
@@ -182,6 +189,7 @@ The RMSE obtained a value of 5.48 g/m3 while the coefficient of determination R2
 Linear regression function, Temperature vs. PM2.5.
 
 ![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Linear%20Regression%20function's%20graph%20PM%20and%20Temperature.png)
+
 Note. Own authorship.
 </br>
 
@@ -196,6 +204,7 @@ The RMSE obtained a value of 6.62 g/m3 coefficient of determination R2 has a val
   Linear regression function, Atmospheric Pressure vs. PM2.5.
 
 ![che](https://github.com/Mihail-Zuniga/AI-Model-to-predict-climatic-variables-from-air-pollution/blob/main/Graphs/Linear%20Regression%20function's%20graph%20PM%20and%20pressure.png)
+
 Note. Own authorship.
 </br>
 ## Conclusions
